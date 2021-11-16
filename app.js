@@ -15,11 +15,11 @@ const whyUsRouter = require('./routes/whyUs');
 const testimonialRouter = require('./routes/testimonial');
 
 
-const compression = require('compression');
+
 
 const app = express();
 
-app.use(compression()); //Compress all routes
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
